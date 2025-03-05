@@ -49,7 +49,7 @@ This project is built using the **QTPI Robotic Kit** and **Code2Play** (similar 
 ## 🔗 Resources
 - **[MIT App Inventor](https://appinventor.mit.edu/)**
 - **[QTPI Robotics](https://www.qtpi.in/)**
-- **[Code2play Inventor](https://www.stemdesi.in/)
+- **[Code2play Inventor](https://www.stemdesi.in/)**
 
 ---
 💡 *Feel free to modify the code and experiment with different motor speeds and RGB light effects!* 🚀
