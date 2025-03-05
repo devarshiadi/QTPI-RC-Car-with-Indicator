@@ -54,3 +54,50 @@ This project is built using the **QTPI Robotic Kit** and **Code2Play** (similar 
 ---
 💡 *Feel free to modify the code and experiment with different motor speeds and RGB light effects!* 🚀
 
+# ❓ Frequently Asked Questions (FAQ) - QTPI RC Car
+
+## 1️⃣ **What is the QTPI RC Car project?**
+The QTPI RC Car is a Bluetooth-controlled robotic car built using the QTPI robotic kit and programmed with a drag-and-drop block-based interface. It allows users to control movement and indicator lights via a mobile app.
+
+## 2️⃣ **How do I connect the app to the RC car?**
+- Ensure Bluetooth is enabled on your mobile device.
+- Click on **CONNECT** in the app.
+- Select the appropriate Bluetooth device from the list.
+- If the connection is successful, a "Connected" notification will appear.
+
+## 3️⃣ **What are the movement controls?**
+- **Forward:** Moves the car ahead.
+- **Backward:** Moves the car in reverse.
+- **Left:** Turns the car left while lighting up the left indicator.
+- **Right:** Turns the car right while lighting up the right indicator.
+- Releasing any button stops the movement.
+
+## 4️⃣ **What do the RGB lights indicate?**
+- **Left Turn:** Left RGB light turns red.
+- **Right Turn:** Right RGB light turns red.
+- **No movement:** Both RGB lights remain off.
+
+## 5️⃣ **How do I modify the app?**
+- Open `RC_CAR_WITH_INDICATOR.aia` in MIT App Inventor or Code2Play.
+- Adjust UI components and logic blocks as per your requirements.
+- Recompile and deploy the modified version.
+
+## 6️⃣ **What happens if the app fails to connect?**
+- Ensure the RC car is powered on and within Bluetooth range.
+- Restart Bluetooth on your mobile device.
+- Try reconnecting using the **CONNECT** button in the app.
+- If the issue persists, restart the RC car and try again.
+
+## 7️⃣ **How do I close the application?**
+- Press the **Back Button** on your mobile device.
+- The app will prompt to exit or close automatically.
+
+## 8️⃣ **Can I customize the motor speed?**
+Yes, in the block-based code editor, modify the **Rotate Speed** values for `RIGHT_MOTOR` and `LEFT_MOTOR` to adjust speed levels.
+
+## 9️⃣ **Where can I find the source files?**
+- `RC_CAR_WITH_INDICATOR.apk` (Installable app)
+- `RC_CAR_WITH_INDICATOR.aia` (Editable source file)
+
+
+
